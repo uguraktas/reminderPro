@@ -7,9 +7,6 @@ import App from './components/App'
 
 const store = createStore(reducer);
 
-
-console.log('çalıştımı sdsd')
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
